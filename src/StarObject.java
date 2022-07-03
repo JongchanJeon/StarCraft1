@@ -18,7 +18,7 @@ abstract class StarObject {
 	boolean flag;//다른 작업을 위한 변수
 	int job;//내가 할 작업
 	int progress; //진행 상황
-	
+	int resources = 0;
 	
 	Thread go;//스레드 변수
 	StarObject target; //상대방 타겟
@@ -59,5 +59,7 @@ abstract class StarObject {
 	public int getJob() {
 		return job;
 	}
-	
+	String getResources() {
+		return Integer.toString(resources);
+	}
 }
