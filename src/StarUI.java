@@ -579,9 +579,10 @@ class State implements Runnable {
 					
 				}
 				if (((StarObject) Terran.workerVT.get(i)).getCondition().equals("¹Ì³×¶ö")) {
-					StarUI.wonjin[i].setText("¹Ì³×¶ö");
+					StarUI.wonjin[i].setText("m : " + ((StarObject) Terran.workerVT.get(i)).getResources());
+					
 				} else if (((StarObject) Terran.workerVT.get(i)).getCondition().equals("°¡½º")) {
-					StarUI.wonjin[i].setText("°¡½º");
+					StarUI.wonjin[i].setText("g : " + ((StarObject) Terran.workerVT.get(i)).getResources());
 				} else if (((StarObject) Terran.workerVT.get(i)).getCondition().equals("Ä¿¸àµå")) {
 					StarUI.wonjin[i].setText("Ä¿¸àµå");
 				} else {

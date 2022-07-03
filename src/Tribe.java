@@ -74,6 +74,7 @@ abstract class Tribe {
 		gas+=i;
 	}
 	public int getGas(){
+		
 		return gas;
 	}	
 	synchronized void setUnit(int a){
