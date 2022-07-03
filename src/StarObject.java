@@ -62,4 +62,7 @@ abstract class StarObject {
 	String getResources() {
 		return Integer.toString(resources);
 	}
+	String getprogress() {
+		return Integer.toString(progress);
+	}
 }
