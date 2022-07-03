@@ -74,7 +74,7 @@ class StarUI extends JFrame implements Runnable, MouseListener, ActionListener, 
 		this.setResizable(false);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-		panel = new JPanel(){ImageIcon i = new ImageIcon("img/map.jpg");
+		panel = new JPanel(){ImageIcon i = new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/map.jpg");
 	    	public void paintComponent(Graphics g) {
 	    		g.drawImage(i.getImage(), 0, 0, 640, 620, null);
 	    	}
@@ -150,19 +150,19 @@ class StarUI extends JFrame implements Runnable, MouseListener, ActionListener, 
 		
 		U_mineralLB = new JLabel();
 		U_mineralLB.setOpaque(false);
-		U_mineralLB.setIcon(new ImageIcon("img/mineral.jpg"));
+		U_mineralLB.setIcon(new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/mineral.jpg"));
 		U_mineralLB.setOpaque(false);
 		U_mineralLB.setBounds(300, 5, 13, 15);
 		jPanel1.add(U_mineralLB);
 
 		U_gasLB = new JLabel();
-		U_gasLB.setIcon(new ImageIcon("img/gas.jpg"));
+		U_gasLB.setIcon(new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/gas.jpg"));
 		U_gasLB.setOpaque(false);
 		U_gasLB.setBounds(400, 5, 13, 15);
 		jPanel1.add(U_gasLB);
 
 		U_unitLB = new JLabel();
-		U_unitLB.setIcon(new ImageIcon("img/unit.jpg"));
+		U_unitLB.setIcon(new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/unit.jpg"));
 		U_unitLB.setOpaque(false);
 		U_unitLB.setBounds(500, 5, 13, 15);
 		jPanel1.add(U_unitLB);

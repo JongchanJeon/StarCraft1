@@ -28,13 +28,13 @@ class Terran extends Tribe {
 		workerdesc = "Terran SCV";
 
 		///////////건물및 유닛 이미지//////////////
-		mainBIC = new ImageIcon("img/terranmainB.jpg");
+		mainBIC = new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/terranmainB.jpg");
 
-		workerIC = new ImageIcon("img/terranworker.jpg");
+		workerIC = new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/terranworker.jpg");
 
 		//////////건물 및 유닛 페이스 이미지/////////////
-		buildingface = new ImageIcon("img/terranbuildingface.jpg");
-		workerface =new ImageIcon("img/terranworkerface.jpg");
+		buildingface = new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/terranbuildingface.jpg");
+		workerface =new ImageIcon("C:\\Users\\jjc63\\Desktop\\StarCraft\\StarCraft\\img/terranworkerface.jpg");
 
 		
 		
