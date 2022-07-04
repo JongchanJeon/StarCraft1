@@ -53,7 +53,7 @@ class Terran extends Tribe {
 		workerItem.add("³î±â");
 		workerItem.add("¹Ì³×¶ö");
 		workerItem.add("°¡½º");
-		workerItem.add("CommandCenter");
+		workerItem.add("Ä¿¸àµå");
 		workerItem.add("°ø°ÝÇÏ±â");
 		
 

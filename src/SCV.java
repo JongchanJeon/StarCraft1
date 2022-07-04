@@ -12,7 +12,7 @@ class SCV extends TerranUnit implements Runnable{
 	static int buildtime = 70;
 	static int attackspeed = 600;
 	static JLabel wonjin0; // 현재 SCV 상태
-	int info = 0;
+	
 	
 	SCV(StarUI ui){
 		super(ui);
@@ -109,7 +109,7 @@ class SCV extends TerranUnit implements Runnable{
 	void addMineral(){
 		condi=(String)getCondition(1);
 		ui.setTB(ui.clan.workerVT); //상태정보 바꿈
-		
+		resources = 0 ;
 		while(true){
 			try {
 				Thread.sleep(3000);
@@ -126,7 +126,7 @@ class SCV extends TerranUnit implements Runnable{
 	void addGas(){
 		condi=(String)getCondition(2);
 		ui.setTB(ui.clan.workerVT);
-		
+		resources = 0 ;
 		while(true){
 			try {
 				Thread.sleep(3000);
